@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@900&family=Roboto&display=swap');
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ====Seccion de la navegacion ====*/
+header{
+    height: 11em;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 5;
+}
+.nav{
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__logo{
+    width: 20vw;
+}
+.nav__ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 1.5em;
+}
+.nav__ul li{
+    list-style: none;
+}
+.nav__ul a{
+    text-decoration: none;
+    background-color: #ECF0FF;
+    margin: 1em;
+    color:#2D5BFF;
+    font-weight: bolder;
+    padding: 0.7em 1.9em;
+    border-radius: 0.3em;
+    font-size: 1.3vw;
+}
+
+/* ====Seccion del Jumbotron ====*/
+.jumbotron{
+    margin-top: 11em;
+    height: 85vh;
+    background-image: url('./assets/pexels-vidal-balielo-jr-3376801.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.jumbotron__frase{
+    width: 30vw;
+    position: absolute;
+    margin-left: 6vw;
+    margin-top: 25vw;
+}
+.jumbotron__frase h1{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    font-size: 3em;
+    color: #2D5BFF;
+}
+button{
+    padding: 0.5em 1.7em;
+    font-size: 1.3vw;
+    background-color: #2D5BFF;
+    border-radius: 8px;
+    border: none;
+    margin-top: 1vw;
+    color: white;
+}
+
+/* ====Seccion de Sobre nosotros ====*/
+#sobre_nosotros{
+    display: flex;
+}
+.sobre_nosotros__texto{
+    margin-top: 15vw;
+    margin-left: 3vw;
+}
+#sobre_nosotros img{
+    margin-top: -7vw;
+}
+#sobre_nosotros h1{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    font-size: 4em;
+    color: #2D5BFF;
+    margin-bottom: 1em;
+}
+#sobre_nosotros p{
+    width: 25vw;
+    font-size: 1.2vw;
+    text-align: left;
+}
+
+/* ====Seccion de Nuestros servicios ====*/
+/* #nuestros_servicios{
+   
+} */
+#nuestros_servicios h1{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    font-size: 4em;
+    color: #2D5BFF;
+    margin-top: 1.5em;
+    margin-bottom: 4vw;
+    text-align: center;
+}
+.nuestros_servicios{
+    background-image: url('./assets/forma_Mesa\ de\ trabajo\ 1.png');
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.servicios{
+    width: 18vw;
+    margin: 1vw;
+    padding: 1vw 3vw;
+    border-radius: 1vw;
+    background-color: white;
+}
+.servicios h2{
+    text-align: center;
+    margin:1vw
+}
+.servicios p{
+    font-size: 1.3em;
+    color: #5c5c5c; ;
+}
+.servicios img{
+    width: 10vw;
+    margin-left: 5vw;
+    margin-bottom: 1vw;
+}
+.servicios_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70vw;
+}
+#covid{
+    display: flex;
+}
+.covid__info{
+    margin-top: 20vw;
+    width: 50vw;
+}
+.covid__info h1 {
+    color: #2D5BFF;
+    text-align: center;
+    font-size: 3.5vw;
+    margin: 2vw;
+}
+.covid__info p{
+    font-size: 1vw;
+    width: 25vw;
+    margin-left: 13.5vw;
+}
+.covid__fondo{
+    position: absolute;
+    margin-top: -20vw;
+    margin-left: -15vw;
+    z-index: -1;
+    transform: rotate(150deg);
+}
+#covid__bacteria{
+    width: 75vw;
+}
+
+#mas_info{
+    display: flex;
+}
+.mas_info__logo{
+    margin-top: -25em;
+    height: 60vw;
+}
+.mas_info__logo h1{
+    color: #2D5BFF;
+    font-size: 2.5em;
+    margin-left: 6em;
+    padding: 0.5em;
+}
+.mas_info__icon{
+    width: 7vw; 
+}
+.store_links{
+    margin-left: 16em;
+}
+.mas_info__form{
+    margin-top: -12em;
+    margin-left: 20em;
+}
+.mas_info__form input{
+    border-color: #2D5BFF;
+    background-color: #ECF0FF;
+    /* padding: 1em 4em; */
+    margin: 1em;
+    height: 3.5em;
+    width: 22em;
+    font-size: 1em;
+    border-radius: 0.3em;
+}
+.mas_info__form p{
+    width: 20em;
+    text-align: right;
+    font-size: 1.3em;
+    margin-left: -3.5em;
+    padding: 1em;
+}
+.mas_info__form h1{
+    margin-left: -1.4em;
+    color: #2D5BFF;
+    font-size: 4em;
+    padding: 0.2em;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2D5BFF;
+    height: 10vw;
+}
+#instagram{
+    width: 14vw;
+    margin-right: -6vw;
+    margin-bottom: -1.4vw;
+}
+#facebook{
+    width: 7vw;
+    margin-right: 5em;
+}
+.line{
+    padding-top: 1vw;
+    border-bottom: 1px solid #ededed;
+    width: 15em;
+}
+.footer_info{
+    margin-top: 2vw;
+    margin-left: 4vw;
+}
